@@ -1,35 +1,58 @@
-    $bg-color: darkviolet;
-    $tx-color: slategray;
+$tx-color: slategray;
+@media (min-width: 500px) {
     .container {
         margin: 20px;
     }
-    
     .col-7 {
         text-align: center;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color: $tx-color;
         font-size: 48px;
     }
-    
     .col-2 {
         align-self: center
     }
-    
     .hot-movies {
         display: flex;
         flex-wrap: wrap;
     }
-    
     .hot-movies>div {
         margin: 20px;
-        color: $bg-color;
     }
-    
     .headline {
         font-size: 40px
     }
-    
     .imag {
         width: 220px;
-        height: 326;
+        height: 326px;
     }
+}
+
+@media (max-width: 499px) {
+    .container {
+        margin: 10px;
+    }
+    .col-7 {
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: $tx-color;
+        font-size: 24px;
+    }
+    .col-2 {
+        align-self: center
+    }
+    .hot-movies {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hot-movies>div {
+        margin: 10px;
+    }
+    .headline {
+        font-size: 20px
+    }
+    .imag {
+        width: 110px;
+        height: 163px;
+    }
+}
