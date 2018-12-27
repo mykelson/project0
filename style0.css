@@ -1,0 +1,35 @@
+.container {
+  margin: 20px;
+}
+
+.col-7 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: slategray;
+  font-size: 48px;
+}
+
+.col-2 {
+  align-self: center;
+}
+
+.hot-movies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hot-movies > div {
+  margin: 20px;
+  color: darkviolet;
+}
+
+.headline {
+  font-size: 40px;
+}
+
+.imag {
+  width: 220px;
+  height: 326;
+}
+
+/*# sourceMappingURL=style0.css.map */

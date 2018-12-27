@@ -1,0 +1,50 @@
+.container {
+    background-color: darkgray;
+}
+
+#heading {
+    font: Arial;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 500px) {
+    table {
+        align-self: center;
+        margin-left: 200px;
+        margin-top: 50px;
+        width: 50%;
+    }
+    table {
+        padding: 5px;
+        td {
+            text-align: center;
+            padding: 5px;
+            margin: 40px;
+        }
+        .details {
+            font-size: 18px;
+        }
+    }
+    .embeded-video {
+        margin-left: 100px;
+        width: 800px;
+        height: 450px;
+    }
+}
+
+@media (max-width: 499px) {
+    table {
+        padding: 2px;
+        td {
+            text-align: center;
+            margin: 20px;
+        }
+        .details {
+            font-size: 12px;
+        }
+    }
+    .embeded-video {
+        width: 240px;
+        height: 240px;
+    }
+}
